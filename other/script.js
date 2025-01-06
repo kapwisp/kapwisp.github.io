@@ -1,9 +1,8 @@
-console.log("hello there.")
+console.log("hello there.");
 
 var motd = [
     'Remember to brush your teeth!',
     'Hi there, would you like to sign my petition?',
-    'OSHA Approved!',
     'The bodies will not be found.',
     'The fog is coming!',
     "Hey! Listen!",
@@ -17,6 +16,6 @@ var motd = [
     "Droopy likes your face!"
 ]
 
-var motdText = document.getElementById("motd")
+var motdText = document.getElementById("motd");
 var motdNum = Math.floor(Math.random()*motd.length);
-motdText.innerText = "MOTD: ".concat(motd[motdNum])
+motdText.innerText = "MOTD: ".concat(motd[motdNum]);
